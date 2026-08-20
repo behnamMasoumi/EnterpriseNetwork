@@ -8,20 +8,7 @@ The network uses VLAN segmentation, Layer 3 switching, HSRP gateway redundancy, 
 The project was also used as a practical troubleshooting exercise, including identifying routing, SVI, OSPF, DHCP, and redundancy issues and validating the resulting fixes.
 
 🏗️ Network Architecture
-                         WAN
-                  ┌───────────────┐
-                  │               │
-           Building A        Building B
-              Router             Router
-                │                  │
-          ┌─────┴─────┐      ┌─────┴─────┐
-          │           │      │           │
-       Distro 1   Distro 2  Distro 1   Distro 2
-          │ \       / │        │ \       / │
-          │  \     /  │        │  \     /  │
-       Access Switches          Access Switches
-          │                       │
-      VLAN 10/20/30          VLAN 40/50/60
+
 
 <img width="1921" height="1005" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/89ad3d74-2916-46f5-9cdb-65b07414f5e5" />
 
